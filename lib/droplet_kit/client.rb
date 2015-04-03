@@ -2,7 +2,7 @@ require 'faraday'
 
 module DropletKit
   class Client
-    DIGITALOCEAN_API = 'https://api.digitalocean.com'
+    DIGITALOCEAN_API = 'http://api.digitalocean.com'
 
     attr_reader :access_token
 
